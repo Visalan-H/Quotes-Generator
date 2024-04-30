@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rajdhani";
+}
+body{
+    background-color:  #0B2545;
+    /* color: #0B2545; */
+}
+.container{
+    background-color: #EEF4ED;
+    width: 700px;
+    position: absolute;
+    color: #0B2545;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 10px 20px 0px rgba(0,0,0,0.15);
+}
+.container h2{
+    font-size: 32px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.container h2::after{
+    content: '';
+    width: 75px;
+    height: 3px;
+    border-radius: 3px;
+    position: absolute;
+    background-color:#0B2545;
+    bottom: -7px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.container blockquote{
+    font-size: 28px;
+    min-height: 110px;
+}
+.container blockquote::after,.container blockquote::before{
+    content: '"';
+}
+.container span{
+    font-size: 18px;
+    display: block;
+    margin-top: 10px;
+    float: right;
+    position: relative;
+}
+.container span::before{
+    content: '';
+    width: 22px;
+    height: 3px;
+    background-color: #0B2545;
+    position: absolute;
+    top: 45%;
+    left: -30px;
+}
+.buttons{
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+button{
+    width: 120px;
+    background-color: #EEF4ED;
+    height: 50px;
+    border: 2px solid #0B2545;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #0B2545;
+    font-weight: 500;
+    outline: 0;
+    transform: scale(1);
+    transition: background-color 0.2s, color 0.2s,transform 0.2s;
+}
+button:hover{
+    transform: scale(0.9);
+    background-color: #0B2545;
+    color: #EEF4ED;
+    transition: background-color 0.2s, color 0.2s,transform 0.2s;
+}
+button:active{
+    transform: scale(0.8);
+    transition: transform 0.2s;
+}
