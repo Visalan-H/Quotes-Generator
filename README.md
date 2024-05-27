@@ -7,6 +7,8 @@ Our website is dedicated to delivering powerful and uplifting quotes that will i
 
 ## How it Works
 
+Visit this link : https://visalan-h.github.io/Quotes-Generator/quote.html
+
 Using our motivational quote generator is as easy as pie! Simply click the "Generate quote" button, and let the magic happen and you can copy it with a click.
 Watch as words of encouragement, perseverance, and determination appear before your eyes, ready to fuel your passion and propel you towards success.
 
